@@ -1,5 +1,5 @@
-#JQuery Project
-##Creating A Disc Collection Manager
+# JQuery Project
+## Creating A Disc Collection Manager
 
  You’re a videophile whose collection of DVDs, numbering in the thousands, has become a huge problem. Not only has organization become an issue, making it hard to find a DVD quickly, but all those DVDs in their cases have become a storage problem.
  
