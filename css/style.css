@@ -1,0 +1,102 @@
+html
+{
+/*   background-image: url("../images/background.jpg");*/
+}
+
+body
+{
+   padding: 1em;
+   background-color: #dddddd !important;
+/*   border-style: ridge;*/
+/*    border-radius: 5px;*/
+/*   border-color: #1d3098;*/
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #34495e;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden; 
+}
+
+
+fieldset {
+/*    border-radius: 10px;*/
+    border-style: ridge;
+    border-color: #34495e;
+}
+
+input[type="button"], input[type="submit"] {
+    background-color: #34495e;
+    border-radius: 1px;
+    border-width: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-width: 160px;
+    padding: 4px;
+    height: 30px;
+    color: white;
+}
+
+input[value="x"] {
+    height: 10px;
+    width: 10px;
+}
+
+select {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-width: 160px;
+    padding: 4px;
+    height: 30px;
+}
+
+input {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-width: 160px;
+    padding: 4px;
+    height: 17px;
+}
+
+.templates
+{
+   display: none;
+}
+
+.filter
+{
+   margin-bottom: 0.5em;
+}
+
+.template.qualifier
+{
+   display: inline-block;
+   /* IE 6-7 Hack */
+   *display: inline;
+   zoom: 1;
+}
+
+#results
+{
+   margin: 1em auto;
+   border-collapse: collapse;
+}
+
+#results th,
+#results td
+{
+   padding: 0.2em 0.5em;
+   color: #fff;
+}
+
+#results tr:nth-child(odd)
+{
+   background-color: #34495e;
+   border-color: #000000;
+/*   border-style: ridge;*/
+}
